@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data generated at runtime
+data/uploads/*
+data/vectorstore/*
+!data/uploads/.gitkeep
+!data/vectorstore/.gitkeep
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
